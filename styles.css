@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a > img {
+  width: 8rem;
+}
+
+.search {
+  border: 1px solid grey;
+  border-radius: 1.3rem;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: flex-start;
+  width: 35rem;
+  background-color: #f5f4f4;
+}
+
+.search > i {
+  padding-right: 1rem;
+}
+
+.search > input {
+  border-style: none;
+  padding-left: 1rem;
+  font-size: 1rem;
+  background-color: #f5f4f4;
+  color: #5b5b5b;
+}
+
+.navbar {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #5b5b5b;
+}
+
+.navbar > a {
+  color: black;
+}
+
+.navbar2 > a {
+  color: black;
+  padding-left: 0.7rem;
+  font-size: 0.85rem;
+  color: #5b5b5b;
+}
+
+.user {
+  border-radius: 100%;
+  width: 1.7rem;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 0.5rem; */
+  align-items: center;
+  height: 5.5%;
+  padding: 0 15rem 0;
+  background-color: #f5f4f4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.small-header {
+  border: 1px solid black;
+  width: 25%;
+  height: 31%;
+  position: absolute;
+  left: 10rem;
+  top: 4rem;
+  padding: 1%;
+  background-color: white;
+  text-align: left;
+  border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  color: #5b5b5b;
+}
+
+.small-header > h2 {
+  font-weight: 700;
+}
+
+.small-header > p {
+  font-weight: 300;
+}
+
+.section2 {
+  padding: 2% 0 2%;
+  margin-left: 5rem;
+  font-size: x-large;
+  color: #5b5b5b;
+}
+
+.card {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-item {
+  width: 15%;
+  position: relative;
+  color: #5b5b5b;
+}
+
+.container > p,
+.container > h3 {
+  margin-top: 0.3rem;
+  text-align: left;
+}
+
+.pop-up > div {
+  color: #5b5b5b;
+  width: 100%;
+  border: 1px solid black;
+  border-style: none;
+  background-color: white;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 5%;
+  text-align: left;
+}
+
+.pop-up {
+  display: none;
+}
+
+.card-item:hover .pop-up {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.pop-up > div > ul > li {
+  list-style: disc outside none;
+}
+
+.pop-up > div > button {
+  text-align: center;
+  padding: 5% 20% 5%;
+  border-radius: 10%;
+  margin-left: 2.5rem;
+  background-color: #ff75a0;
+}
